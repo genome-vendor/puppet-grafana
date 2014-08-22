@@ -7,6 +7,7 @@ class grafana::params {
     $group              = 'root'
     $graphite_host      = 'localhost'
     $graphite_port      = 80
+    $graphite_protocol  = 'http'
     $elasticsearch_host = 'localhost'
     $elasticsearch_port = 9200
 }

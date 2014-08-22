@@ -8,6 +8,7 @@ class grafana (
     $group              = $grafana::params::group,
     $graphite_host      = $grafana::params::graphite_host,
     $graphite_port      = $grafana::params::graphite_port,
+    $graphite_protocol  = $grafana::params::graphite_protocol,
     $elasticsearch_host = $grafana::params::elasticsearch_host,
     $elasticsearch_port = $grafana::params::elasticsearch_port,
 ) inherits grafana::params {
