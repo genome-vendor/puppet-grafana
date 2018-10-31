@@ -15,7 +15,7 @@ class grafana::service {
         ports => $::grafana::params::docker_ports
       }
 
-      create_resources(docker::run, $container, $defaults)
+      create_resources(docker_old::run, $container, $defaults)
     }
     'package','repo': {
       service { $::grafana::service_name:

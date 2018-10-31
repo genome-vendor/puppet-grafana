@@ -47,7 +47,7 @@
       "version_requirement": ">= 0.3.2 <2.0.0"
     },
     {
-      "name": "garethr/docker",
+      "name": "garethr/docker_old",
       "version_requirement": ">= 3.5.0 <6.0.0"
     },
     {
